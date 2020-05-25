@@ -1,0 +1,21 @@
+----------Array-----------
+const num = [5.8, 17.03, 9.95, 10.01];
+
+let validation = num.filter(newNum => newNum >= 10);
+
+//[17.03, 10.01]
+
+
+----------Object-----------
+const numObj = [
+    {name: 'aaa', age: 16},
+    {name: 'bbb', age: 21},
+    {name: 'ccc', age: 18},
+    {name: 'ddd', age: 7}
+];
+
+let onlyAdult = numObj.filter(num => num.age >17);
+console.log(onlyAdult);
+(2) [{…}, {…}]
+0: {name: "bbb", age: 21}
+1: {name: "ccc", age: 18}
